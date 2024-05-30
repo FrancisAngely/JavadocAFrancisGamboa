@@ -3,14 +3,19 @@ package javadoca;
 
 /**
  *
- * @author claramolinosaraiz
+ * @author FrancisGamboa
+ * 
  */
 public class main {
 
     /**
-     * @param args the command line arguments
+     * @version Punto de entrada del programa. Ejecuta ejemplos de uso de las clases
+     *          Aritmetica y Operaciones.
+     * 
+     * @param args argumentos de la línea de comandos
      */
     public static void main(String[] args) {
+
         // Ejemplo de uso de la clase Aritmetica
         aritmetica aritmetica = new aritmetica();
         int suma1 = aritmetica.sumar(10, 5);
@@ -45,4 +50,3 @@ public class main {
         }
     }
 }
-    
